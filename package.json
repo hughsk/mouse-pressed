@@ -1,6 +1,6 @@
 {
   "name": "mouse-pressed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple module to detect if a mouse button is pressed or not.",
   "main": "index.js",
   "scripts": {
