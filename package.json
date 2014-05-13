@@ -1,7 +1,7 @@
 {
   "name": "mouse-pressed",
   "version": "0.0.0",
-  "description": "Simple module to detect if a mouse key is pressed or not.",
+  "description": "Simple module to detect if a mouse button is pressed or not.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
