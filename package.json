@@ -1,0 +1,34 @@
+{
+  "name": "mouse-pressed",
+  "version": "0.0.0",
+  "description": "Simple module to detect if a mouse key is pressed or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/mouse-pressed.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/mouse-pressed/issues"
+  },
+  "homepage": "https://github.com/hughsk/mouse-pressed",
+  "dependencies": {
+    "events": "^1.0.1"
+  },
+  "devDependencies": {
+    "beefy": "^1.1.0"
+  },
+  "keywords": [
+    "mouse",
+    "pressed",
+    "down",
+    "up",
+    "click",
+    "event",
+    "watch"
+  ]
+}
