@@ -33,6 +33,10 @@ Emitted with the original mouse `event` every time a mouse button is pressed.
 
 Emitted with the original mouse `event` every time a mouse button is released.
 
+### pressed.dispose()
+
+To be called when this instance is no longer required: removes all of the attached event listeners.
+
 ## License
 
 MIT. See [LICENSE.md](http://github.com/hughsk/mouse-pressed/blob/master/LICENSE.md) for details.
