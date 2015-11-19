@@ -18,7 +18,7 @@ function pressed (element, preventDefault) {
   if (typeof window !== 'undefined') {
     element = element || window
     element.addEventListener('mousedown', mousedown, false)
-    element.addEventListener('mouseup', mouseup, false)
+    window.addEventListener('mouseup', mouseup, false)
 
     if (preventDefault) {
       element.addEventListener('contextmenu', preventDefaulter, false)
@@ -61,7 +61,7 @@ function pressed (element, preventDefault) {
     if (element) {
       element.removeEventListener('contextmenu', preventDefaulter, false)
       element.removeEventListener('mousedown', mousedown, false)
-      element.removeEventListener('mouseup', mouseup, false)
+      window.removeEventListener('mouseup', mouseup, false)
     }
   }
 }
